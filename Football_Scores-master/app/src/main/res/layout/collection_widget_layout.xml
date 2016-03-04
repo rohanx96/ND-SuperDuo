@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/collection_widget_margin"
+    android:background="@android:color/white">
+    <TextView
+        android:id="@+id/widget_heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/todays_scores"
+        android:background="@color/purple01"
+        android:textColor="@android:color/white"
+        android:textAppearance="@style/TextAppearance.AppCompat.SearchResult.Title"
+        android:padding="16dp"/>
+    <ListView
+        android:id="@+id/widget_collection_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </ListView>
+</LinearLayout>
